@@ -4,3 +4,6 @@ alias gs='git status && git fetch && git for-each-ref --sort=committerdate refs/
 
 alias pwwords='shuf -n50 /usr/share/dict/american-english'
 alias nohuphuphuphup='nohup'
+
+eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/bin:$PATH"
